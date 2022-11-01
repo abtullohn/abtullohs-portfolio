@@ -4466,6 +4466,7 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  color: rgb(42, 169, 219)
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -5151,7 +5152,7 @@ input[type="button"].btn-block {
 }
 
 .card-img {
-  width: 100%;
+  width: 80%;
   border-radius: calc(0.25rem - 1px);
 }
 
@@ -8904,7 +8905,11 @@ button.bg-dark:focus {
 
 .mb-2,
 .my-2 {
-  margin-bottom: 0.5rem !important;
+  margin-bottom: 1rem !important;
+  margin-top: -8rem;
+  color: rgb(42, 169, 219);
+  text-decoration: underline;
+  
 }
 
 .ml-2,
@@ -8952,7 +8957,10 @@ button.bg-dark:focus {
 
 .mb-4,
 .my-4 {
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 1.8rem !important;
+  color: rgb(42, 169, 219);
+  text-decoration: underline;
+  
 }
 
 .ml-4,
@@ -8976,7 +8984,9 @@ button.bg-dark:focus {
 
 .mb-5,
 .my-5 {
-  margin-bottom: 3rem !important;
+  margin-top: 0rem !important;
+  margin-bottom: 1rem;
+  font-size: 20px;
 }
 
 .ml-5,
@@ -11456,10 +11466,10 @@ a:hover {
   text-align: center;
 }
 
-.footer .links {
-  width: 50%;
-  text-align: left;
-  padding: 0 4px;
+.links {
+  font-size: 25px;
+  display: inline-block;
+  margin: 0 15px
 }
 
 .footer .links a {
@@ -11783,4 +11793,11 @@ body.dark-theme {
   background: #212529;
 }
 
+.git{
+  font-size: 25px;
+  margin: 0 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+}
 
