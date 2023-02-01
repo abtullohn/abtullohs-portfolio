@@ -549,3 +549,10 @@ img {
     text-decoration: underline;
     color: rgb(42, 169, 219);
 }
+
+.logo{
+    margin-left: 28rem;
+}
+.new-1{
+    font-size: 20px;
+}
